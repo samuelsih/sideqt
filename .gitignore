@@ -32,6 +32,13 @@ MANIFEST
 *.manifest
 *.spec
 
+# Briefcase
+*.msi
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

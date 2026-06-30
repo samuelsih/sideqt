@@ -20,10 +20,13 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Build exe
-        run: uv run pyinstaller --onefile --windowed --name InstantCourier app.py
+      - name: Build Windows app
+        run: uv run briefcase build windows
+
+      - name: Package Windows app
+        run: uv run briefcase package windows
 
       - name: Upload to release
         uses: softprops/action-gh-release@v3
         with:
-          files: dist/InstantCourier.exe
+          files: dist/*.msi

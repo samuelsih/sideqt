@@ -1,6 +1,7 @@
 [project]
 name = "sideqt"
-version = "0.1.0"
+version = "1.1.0"
+description = "SideQt App"
 requires-python = ">=3.14"
 dependencies = [
     "aiohappyeyeballs==2.6.2",
@@ -24,5 +25,36 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "pyinstaller>=6.21.0",
+    "briefcase>=0.3.23",
 ]
+
+[tool.briefcase]
+project_name = "SideQt"
+bundle = "com.sideqt"
+version = "1.1.0"
+
+[tool.briefcase.app.sideqt]
+formal_name = "SideQt"
+description = "SideQt App"
+sources = ["src"]
+requires = [
+    "aiohappyeyeballs",
+    "aiohttp",
+    "aiosignal",
+    "attrs",
+    "certifi",
+    "charset-normalizer",
+    "frozenlist",
+    "idna",
+    "multidict",
+    "propcache",
+    "pyside6",
+    "pyside6-addons",
+    "pyside6-essentials",
+    "requests",
+    "shiboken6",
+    "urllib3",
+    "yarl",
+]
+
+[tool.briefcase.app.sideqt.windows]
