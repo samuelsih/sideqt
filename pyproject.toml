@@ -37,7 +37,7 @@ version = "1.1.0"
 [tool.briefcase.app.sideqt]
 formal_name = "SideQt"
 description = "SideQt App"
-sources = ["src"]
+sources = ["src/sideqt"]
 requires = [
     "aiohappyeyeballs",
     "aiohttp",
