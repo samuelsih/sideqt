@@ -2,6 +2,7 @@
 name = "sideqt"
 version = "1.1.0"
 description = "SideQt App"
+license = "MIT"
 requires-python = ">=3.14"
 dependencies = [
     "aiohappyeyeballs==2.6.2",
