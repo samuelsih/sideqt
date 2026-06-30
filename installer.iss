@@ -1,5 +1,5 @@
 [Setup]
-AppId={{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}
+AppId={{07C37073-92D5-48D8-B9C3-6EB64F777959}
 AppName=InstantCourier
 AppVersion=1.0.0
 AppPublisher=InstantCourier
